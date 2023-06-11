@@ -1,0 +1,77 @@
+* {
+ padding: 0;
+ margin: 0;   
+}
+
+body {
+    background-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    color: rgb(151, 205, 50);
+    margin-top: 50px;
+}
+
+.container-header > h1 {
+    width: 30%;
+    font-size: 2.7em;
+}
+
+.container-search{
+    width: 70%;
+    display: flex;
+}
+
+.container-search > input {
+    padding: 16px;
+    width: 80%;
+}
+
+.container-search > button {
+    padding: 16px;
+    width: 20%;
+    color: white;
+    border: none;
+    background-color: rgb(151, 205, 50);
+}
+
+.container-search > button:hover {
+   cursor: pointer;
+}
+
+#foodList{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.foodItem{
+    background-color: white;
+    padding: 20px;
+    width: 20%;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.foodItem > h1 {
+    margin-top: 20px;
+}
+
+.foodItem > img {
+    width: 100%;
+}
