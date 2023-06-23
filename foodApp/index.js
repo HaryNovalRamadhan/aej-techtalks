@@ -4,8 +4,10 @@ const foodList = document.querySelector('#foodList');
 
 const searchFood = () => {
     foodList.innerHTML = ''
-    
-    fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${searchElement.value}`)
+
+    fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${searchElement.value}`, {
+        method: 'GET'
+    })
         .then(response => {
             return response.json()
         })

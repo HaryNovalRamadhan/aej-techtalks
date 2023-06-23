@@ -1,0 +1,25 @@
+.content > p{
+    padding: 21px;
+    display: flex;
+}
+
+.content{
+    width: 30%;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
