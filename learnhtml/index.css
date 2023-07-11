@@ -4,9 +4,18 @@
 }
 
 .content{
-    width: 30%;
+    width: 50%;
 }
 
+.colomn{
+    width: 50%;
+    position: relative;
+    background-color: greenyellow;
+}
+
+.colomn > div {
+    width: 100%;
+}
 .red{
     background-color: red;
 }
@@ -21,5 +30,15 @@
 
 .container{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+}
+
+.test-input{
+    width: 100%;
+    padding: 30px 0;
+    font-size: 30px;
+}
+
+.test-input::placeholder {
+    text-align: center;
 }
